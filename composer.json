@@ -1,0 +1,24 @@
+{
+    "name": "ianchadwick/dxi",
+    "description": "Library for the DXI API",
+    "type": "library",
+    "keywords": ["api", "dialler", "outbound", "inbound"],
+    "homepage": "https://github.com/ianchadwick/dxi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Chadwick",
+            "email": "chad@mizmoz.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dynmark\\": "src/"
+        }
+    }
+}
