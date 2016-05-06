@@ -42,7 +42,7 @@ class Create extends Command {
      */
     public function getMethod()
     {
-        return 'ecnow_data';
+        return 'ecnow_records';
     }
 
     /**
@@ -52,7 +52,7 @@ class Create extends Command {
      */
     public function getUrlPath()
     {
-        return '/database.php';
+        return '/ecnow.php';
     }
 
     /**
