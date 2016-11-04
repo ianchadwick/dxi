@@ -62,6 +62,6 @@ class Create extends Command {
      */
     public function getAction()
     {
-        return strtolower(class_basename(__CLASS__));
+        return 'create';
     }
 }
